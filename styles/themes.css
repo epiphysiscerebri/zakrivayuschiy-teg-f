@@ -12,6 +12,7 @@
   --main-body-color: #00cc14;
   --core-color: #00cc14;
   --sparks-color: red;
+  --difference-color: #00cc14;
   --repeating-linear-gradient: #000;
   --linear-gradient-first: #007f0c;
   --linear-gradient-second: #004306;
@@ -24,6 +25,7 @@
   --main-body-color: #000;
   --core-color: #000;
   --sparks-color: red;
+  --difference-color: #fff;
   --repeating-linear-gradient: #d3d3d3;
   --linear-gradient-first: #e7e7e7;
   --linear-gradient-second: #1a1a1a;

@@ -70,7 +70,7 @@
               </div>
               <div class="card_list_btns_container">
                 <button type="button" class="card__icon-button">
-                  <svg class="like-icon">
+                  <svg class="like-icon" viewBox="0 0 41 41">
                     <g class="heart">
                       <path
                         class="contour"
@@ -478,18 +478,23 @@
         </ul>
       </section>
       <section class="section_second">
-        <div class="footer_button_layout">
-          <button
-            type="button"
-            onclick="window['dialog-id'].showModal()"
-            class="footer_button"
-          >
-            <svg class="footer_icon" viewBox="0 0 40 40">
+        <button
+          type="button"
+          onclick="window['dialog-id'].showModal()"
+          class="footer_button"
+        >
+          <span>
+            <svg
+              style="z-index: 10"
+              class="footer_icon"
+              href="./svg/floppy.svg"
+              viewBox="0 0 40 40"
+            >
               <use href="./svg/floppy.svg#floppy"></use>
             </svg>
-            <div class="footer_button_text">Сохранить на память</div>
-          </button>
-        </div>
+          </span>
+          <span class="footer_button_text">Сохранить на память</span>
+        </button>
       </section>
     </main>
 
@@ -503,8 +508,11 @@
       <p class="dialog_text">Вставьте дискету, чтобы продолжить</p>
     </div>
     <div class="dialog_button_container">
-      <button class="dialog_button" onclick="window['dialog-id'].close()">
-        ок
+      <button
+        class="card__like-button max-width"
+        onclick="window['dialog-id'].close()"
+      >
+        <span class="button__text uppercase">ок</span>
       </button>
     </div>
   </dialog>
