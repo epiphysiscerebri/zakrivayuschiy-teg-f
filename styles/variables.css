@@ -1,10 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --bg-color: #FFF;
+  --bg-color: #fff;
   --accent-color: #000;
+  --contour-color: #000;
+  --main-body-color: #000;
+  --core-color: #000;
+  --sparks-color: red;
   --repeating-linear-gradient: #d3d3d3;
   --linear-gradient-first: #e7e7e7;
   --linear-gradient-second: #1a1a1a;
-  --main-font: 'Inter-Variable', monospace;
-  --accent-font: "PressStart2P-Regular", monospace;
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P-Regular", fantasy;
 }
