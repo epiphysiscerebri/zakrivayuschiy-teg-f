@@ -20,6 +20,7 @@
   flex-direction: column;
   gap: 100px;
   /* margin-top: 5px; */
+  padding-bottom: 105px;
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-color: var(--bg-color);
