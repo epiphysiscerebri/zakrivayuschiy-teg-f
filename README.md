@@ -1,2 +1,2 @@
 Проект "Закрывающий тег"
-https://epiphysiscerebri.github.io/zakrivayuschiy-teg-f/index.html
+https://github.com/epiphysiscerebri/zakrivayuschiy-teg-f
