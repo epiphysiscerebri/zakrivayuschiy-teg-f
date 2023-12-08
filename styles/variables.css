@@ -8,8 +8,8 @@
   --sparks-color: red;
   --difference-color: #fff;
   --repeating-linear-gradient: #d3d3d3;
-  --linear-gradient-first: #e7e7e7;
-  --linear-gradient-second: #1a1a1a;
-  --main-font: "Inter-Variable", sans-serif;
-  --accent-font: "PressStart2P-Regular", fantasy;
+  --linear-gradient-main: #e7e7e7;
+  --linear-gradient-accent: #1a1a1a;
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P-Regular";
 }

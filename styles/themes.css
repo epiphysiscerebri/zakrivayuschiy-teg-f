@@ -14,8 +14,8 @@
   --sparks-color: red;
   --difference-color: #00cc14;
   --repeating-linear-gradient: #000;
-  --linear-gradient-first: #007f0c;
-  --linear-gradient-second: #004306;
+  --linear-gradient-main: #007f0c;
+  --linear-gradient-accent: #004306;
 }
 
 :root.theme-light {
@@ -27,8 +27,8 @@
   --sparks-color: red;
   --difference-color: #fff;
   --repeating-linear-gradient: #d3d3d3;
-  --linear-gradient-first: #e7e7e7;
-  --linear-gradient-second: #1a1a1a;
+  --linear-gradient-main: #e7e7e7;
+  --linear-gradient-accent: #1a1a1a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,7 +40,7 @@
     --core-color: #00cc14; */
     --sparks-color: red;
     --repeating-linear-gradient: #000;
-    --linear-gradient-first: #007f0c;
-    --linear-gradient-second: #004306;
+    --linear-gradient-main: #007f0c;
+    --linear-gradient-accent: #004306;
   }
 }
