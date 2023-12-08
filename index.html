@@ -57,7 +57,7 @@
               </div>
               <div class="img_layout">
                 <p class="card_list_text_inside_img">&lt;/HTML&gt;</p>
-                <img src="./images/img1.png" class="card_list_img"/>
+                <img src="./images/img1.png" alt="Микроавтобус на фоне природы" class="card_list_img"/>
               </div>
               <div class="card_list_text_container">
                 <p class="card_list_text">
@@ -109,7 +109,7 @@
               </div>
               <div class="img_layout">
                 <p class="card_list_text_inside_img">&lt;/HTML&gt;</p>
-                <img src="./images/img1.png" class="card_list_img img_grayscale"/>
+                <img src="./images/img1.png" alt="Микроавтобус на фоне природы" class="card_list_img img_grayscale"/>
               </div>
               <div class="card_list_text_container">
                 <p class="card_list_text">
@@ -163,7 +163,7 @@
               </div>
               <div class="img_layout">
                 <p class="card_list_text_inside_img">&lt;CSS&gt;</p>
-                <img src="./images/img1.png" class="card_list_img img_saturate"/>
+                <img src="./images/img1.png" alt="Микроавтобус на фоне природы" class="card_list_img img_saturate"/>
               </div>
               <div class="card_list_text_container">
                 <p class="card_list_text">
@@ -215,7 +215,7 @@
               </div>
               <div class="img_layout">
                 <p class="card_list_text_inside_img">&lt;desigions&gt;</p>
-                <img src="./images/img1.png" class="card_list_img img_rotate"/> 
+                <img src="./images/img1.png" alt="Микроавтобус на фоне природы" class="card_list_img img_rotate"/> 
               </div>
               <div class="card_list_text_container">
                 <p class="card_list_text">
@@ -268,7 +268,7 @@
               </div>
               <div class="img_layout">
                 <p class="card_list_text_inside_img">care</p>
-                <img src="./images/img1.png" class="card_list_img img_invert_opacity"/>
+                <img src="./images/img1.png" alt="Микроавтобус на фоне природы" class="card_list_img img_invert_opacity"/>
               </div>
               <div class="card_list_text_container">
                 <p class="card_list_text">
@@ -322,7 +322,7 @@
               </div>
               <div class="img_layout">
                 <p class="card_list_text_inside_img">&lt;support&gt;</p>
-                <img src="./images/img1.png" class="card_list_img img_sepia"/>
+                <img src="./images/img1.png" alt="Микроавтобус на фоне природы" class="card_list_img img_sepia"/>
               </div>
               <div class="card_list_text_container">
                 <p class="card_list_text">
@@ -375,7 +375,7 @@
                 <p class="card_list_text_inside_img">
                   &lt;lifes-style: none;&gt;
                 </p>
-                <img src="./images/img1.png" class="card_list_img img_blur"/>
+                <img src="./images/img1.png" alt="Микроавтобус на фоне природы" class="card_list_img img_blur"/>
               </div>
               <div class="card_list_text_container">
                 <p class="card_list_text">
@@ -428,7 +428,7 @@
               </div>
               <div class="img_layout">
                 <p class="card_list_text_inside_img">&lt;experience&gt;</p>
-                <img src="./images/img1.png" class="card_list_img img_rotate_blur_opacity"/>
+                <img src="./images/img1.png" alt="Микроавтобус на фоне природы" class="card_list_img img_rotate_blur_opacity"/>
               </div>
               <div class="card_list_text_container">
                 <p class="card_list_text">
@@ -498,23 +498,22 @@
         </button>
       </section>
     </main>
-
+    <dialog id="dialog-id">
+      <div class="dialog_textcontent_container">
+        <svg class="dialog_icon" viewBox="0 0 40 40">
+          <use href="./svg/floppy.svg#floppy"></use>
+        </svg>
+        <p class="dialog_text">Вставьте дискету, чтобы продолжить</p>
+      </div>
+      <form class="dialog_button_container" method="dialog">
+        <button
+          class="card__like-button max-width"
+          onclick="window['dialog-id'].close()"
+        >
+          <span class="button__text">ОК</span>
+        </button>
+      </form >
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
-  <dialog id="dialog-id">
-    <div class="dialog_textcontent_container">
-      <svg class="dialog_icon" viewBox="0 0 40 40">
-        <use href="./svg/floppy.svg#floppy"></use>
-      </svg>
-      <p class="dialog_text">Вставьте дискету, чтобы продолжить</p>
-    </div>
-    <form class="dialog_button_container" method="dialog">
-      <button
-        class="card__like-button max-width"
-        onclick="window['dialog-id'].close()"
-      >
-        <span class="button__text">ОК</span>
-      </button>
-    </form >
-  </dialog>
 </html>
