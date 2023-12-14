@@ -1,1 +1,3 @@
-[Ссылка на репозиторий](https://github.com/epiphysiscerebri/zakrivayuschiy-teg-f)
+# zakrivayuschiy-teg-f
+Проект "Закрывающий тег"
+https://github.com/epiphysiscerebri/zakrivayuschiy-teg-f
