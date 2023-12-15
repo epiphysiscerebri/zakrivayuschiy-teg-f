@@ -430,8 +430,6 @@ dialog::backdrop {
 
   .footer_button {
     flex-direction: column;
-    padding-left: 15px;
-    padding-right: 15px;
     width: fit-content;
   }
 
