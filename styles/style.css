@@ -239,8 +239,8 @@
 }
 
 .img_layout {
+  display: flex;
   position: relative;
-  max-height: 696px;
   height: 100%;
   width: 100%;
   box-sizing: border-box;
@@ -360,7 +360,6 @@ span {
 dialog[open] {
   display: grid;
   justify-content: center;
-  top: 18%;
   border: 2px solid var(--accent-color, #000);
   background: var(--bg-color, #fff);
   padding: 0px;
